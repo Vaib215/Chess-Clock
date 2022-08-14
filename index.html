@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chess Clock</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="white">
+      <div class="timer">
+        <div class="match">
+          <span class="min">--</span>:<span class="sec">--</span>
+        </div>
+        <div class="incr">--</div>
+      </div>
+    </div>
+    <div class="black">
+      <div class="timer">
+        <div class="match">
+          <span class="min">--</span>:<span class="sec">--</span>
+        </div>
+        <div class="incr">--</div>
+      </div>
+    </div>
+    <div class="timer_wrapper">
+      <h2>
+        Start a new game
+      </h2>
+      <div class="time">1+0</div>
+      <div class="time">1+1</div>
+      <div class="time">2+1</div>
+      <div class="time">3+2</div>
+      <div class="time">5+0</div>
+      <div class="time">10+0</div>
+      <div class="custom">
+        <label for="custom">Custom: </label>
+        <input type="text" placeholder="10+2" id="custom" tabindex="0"/>
+      </div>
+      <div class="submit">Start</div>
+    </div>
+    <div class="options_wrapper none">
+      <button>II</button>
+      <button>&circlearrowleft;</button>
+    </div>
+  </body>
+</html>
